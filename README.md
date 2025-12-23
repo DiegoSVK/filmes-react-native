@@ -44,7 +44,7 @@ O app já conta com:
         <img src="https://github.com/DiegoSVK/filmes-react-native/blob/main/assets/screenshots/home.png?raw=true" width="200" alt="home">
       </td>
       <td>
-        <img src="https://github.com/DiegoSVK/filmes-react-native/blob/main/assets/screenshots/busca.png?raw=true" width="200" alt="favoritos">
+        <img src="https://github.com/DiegoSVK/filmes-react-native/blob/main/assets/screenshots/favoritos.png?raw=true" width="200" alt="favoritos">
       </td>
       <td>
         <img src="https://github.com/DiegoSVK/filmes-react-native/blob/main/assets/screenshots/detalhes.png?raw=true" width="200" alt="detalhes">
