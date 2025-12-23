@@ -44,16 +44,15 @@ O app já conta com:
 ```bash
 git clone https://github.com/DiegoSVK/filmes-react-native.git
 Instale as dependências
+
 bash
-Copiar código
 npm install
 Configure a API
 Crie um arquivo .env na raiz do projeto e adicione:
 
 env
-Copiar código
 EXPO_PUBLIC_API_KEY=sua_chave_aqui
 Execute o projeto
+
 bash
-Copiar código
 npx expo start
