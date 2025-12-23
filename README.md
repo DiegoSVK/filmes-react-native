@@ -68,3 +68,14 @@ O app já conta com:
 ### 1. Clone o repositório
 ```bash
 git clone [https://github.com/DiegoSVK/filmes-react-native.git](https://github.com/DiegoSVK/filmes-react-native.git)
+
+2. Instale as dependências
+npm install
+
+3. Configure a API
+Crie um arquivo .env na raiz do projeto e adicione:
+EXPO_PUBLIC_API_KEY= sua_chave_aqui
+
+4. Execute o projeto
+Bash
+npx expo start
