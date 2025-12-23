@@ -63,19 +63,21 @@ O app já conta com:
 - **TMDB API** (Fonte dos dados)
 - **AsyncStorage** (Banco local)
 
-## 🚀 Como rodar na sua máquina
+## 🛠️ Como rodar na sua máquina
 
-### 1. Clone o repositório
+### Clone o repositório
 ```bash
-git clone [https://github.com/DiegoSVK/filmes-react-native.git](https://github.com/DiegoSVK/filmes-react-native.git)
+git clone https://github.com/DiegoSVK/filmes-react-native.git
+Instale as dependências
 
-2. Instale as dependências
+bash
 npm install
 
-3. Configure a API
-Crie um arquivo .env na raiz do projeto e adicione:
-EXPO_PUBLIC_API_KEY= sua_chave_aqui
+Configure a API
+Crie um arquivo .env na raiz e adicione:
+env
+EXPO_PUBLIC_API_KEY=sua_chave_aqui
++Execute o projeto
 
-4. Execute o projeto
-Bash
+bash
 npx expo start
