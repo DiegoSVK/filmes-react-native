@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# 🎬 CinePlay - Meu Primeiro App Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
 
-1. Install dependencies
+![Banner](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Banner](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white) ![Banner](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow?style=for-the-badge)
 
-   ```bash
-   npm install
-   ```
+## 👋 Sobre o Projeto
 
-2. Start the app
+Olá! Bem-vindo ao **CinePlay**.
 
-   ```bash
-   npx expo start
-   ```
+Este projeto nasceu do meu desafio pessoal de sair do zero e construir um aplicativo funcional.
 
-In the output, you'll find options to open the app in a
+O CinePlay é um guia de filmes que consome dados reais, permitindo que o usuário explore, pesquise e salve seus filmes favoritos.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 💡 O que eu aprendi construindo isso?
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Este projeto me ensinou conceitos fundamentais:
 
-## Get a fresh project
+- **Segurança primeiro:** Aprendi a proteger chaves de API sensíveis usando Variáveis de Ambiente (`.env`) e `.gitignore`, garantindo que segredos não subam para o GitHub.
+- **Não confie na Internet:** Implementei tratamentos de erro (`try/catch`) e telas de carregamento (Loading States) para quando a conexão falha.
+- **UX (Experiência do Usuário):** Criei feedbacks visuais para buscas vazias e navegação fluida entre abas.
+- **Persistência de Dados:** Uso do `AsyncStorage` para salvar os filmes favoritos no celular do usuário, funcionando mesmo offline.
+- **TypeScript:** Comecei a tipar os dados para evitar erros bobos durante o desenvolvimento.
 
-When you're ready, run:
+## ✨ Funcionalidades
 
+O app já conta com:
+- [x] **Catálogo Dinâmico:** Listas de filmes separadas por gêneros.
+- [x] **Busca Inteligente:** Pesquisa integrada com a API (suporta títulos em PT-BR).
+- [x] **Detalhes Completos:** Sinopse, nota, duração e integração com trailers do YouTube.
+- [x] **Favoritos:** Sistema de "curtir" filmes que salva localmente no dispositivo.
+- [x] **Perfil do Usuário:** Dashboard visual com estatísticas e configurações.
+
+## 🛠️ Tecnologias
+
+- **React Native (Expo SDK 52)**
+- **Expo Router** (Navegação baseada em arquivos)
+- **TMDB API** (Fonte dos dados)
+- **AsyncStorage** (Banco local)
+
+## 🚀 Como rodar na sua máquina
+
+### Clone o repositório
 ```bash
-npm run reset-project
-```
+git clone https://github.com/DiegoSVK/filmes-react-native.git
+Instale as dependências
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+bash
+npm install
+Configure a API
+Crie um arquivo .env na raiz do projeto e adicione:
 
-## Learn more
+env
+EXPO_PUBLIC_API_KEY=sua_chave_aqui
+Execute o projeto
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+bash
+npx expo start
