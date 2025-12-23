@@ -1,7 +1,5 @@
 # 🎬 CinePlay - Meu Primeiro App Mobile
 
-
-
 ![Banner](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Banner](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white) ![Banner](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow?style=for-the-badge)
 
 ## 👋 Sobre o Projeto
@@ -31,6 +29,33 @@ O app já conta com:
 - [x] **Favoritos:** Sistema de "curtir" filmes que salva localmente no dispositivo.
 - [x] **Perfil do Usuário:** Dashboard visual com estatísticas e configurações.
 
+## 📸 Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>Home</b></td>
+      <td align="center"><b>Favoritos</b></td>
+      <td align="center"><b>Detalhes</b></td>
+      <td align="center"><b>Perfil</b></td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://github.com/DiegoSVK/filmes-react-native/blob/main/assets/screenshots/home.png?raw=true" width="200" alt="home">
+      </td>
+      <td>
+        <img src="https://github.com/DiegoSVK/filmes-react-native/blob/main/assets/screenshots/busca.png?raw=true" width="200" alt="favoritos">
+      </td>
+      <td>
+        <img src="https://github.com/DiegoSVK/filmes-react-native/blob/main/assets/screenshots/detalhes.png?raw=true" width="200" alt="detalhes">
+      </td>
+      <td>
+        <img src="https://github.com/DiegoSVK/filmes-react-native/blob/main/assets/screenshots/perfil.png?raw=true" width="200" alt="perfil">
+      </td>
+    </tr>
+  </table>
+</div>
+
 ## 🛠️ Tecnologias
 
 - **React Native (Expo SDK 52)**
@@ -40,19 +65,6 @@ O app já conta com:
 
 ## 🚀 Como rodar na sua máquina
 
-### Clone o repositório
+### 1. Clone o repositório
 ```bash
-git clone https://github.com/DiegoSVK/filmes-react-native.git
-Instale as dependências
-
-bash
-npm install
-Configure a API
-Crie um arquivo .env na raiz do projeto e adicione:
-
-env
-EXPO_PUBLIC_API_KEY=sua_chave_aqui
-Execute o projeto
-
-bash
-npx expo start
+git clone [https://github.com/DiegoSVK/filmes-react-native.git](https://github.com/DiegoSVK/filmes-react-native.git)
